@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livro de Visitas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>Livro de Visitas📖</h2>
+    <form action="processa_formulario.php" method="post">
+        <label for="nome">Nome:✍️</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="email">E-mail:📧</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="comentario">Comentário:✍️</label><br>
+        <textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+        
+        <input type="submit" value="Enviar">✔️
+    </form>
+</body>
+</html>

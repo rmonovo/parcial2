@@ -1,0 +1,13 @@
+h2{
+justify-content: center;
+display: flex; 
+ 
+}
+
+form{display: flex;
+    justify-content: center;
+;}
+
+body{
+    background-color: #1431d1;
+}
